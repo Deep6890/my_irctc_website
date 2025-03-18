@@ -37,6 +37,9 @@ html {
 .list_type_none {
     list-style-type: none;
 }
+.space_evenly{
+    justify-content: space-evenly;
+}
 h1{
     font-size: 2rem;
     font-weight: 500;
@@ -280,7 +283,7 @@ h3{
 .index_pnr_form_main_content{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     width: 100%;
     position: relative;
@@ -288,4 +291,96 @@ h3{
     height: 500px;
     margin-left:100px;
     background-color: #f9fbf6   ;
+}
+.i_p_f_main_header_btns{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-evenly;
+    width:100%;
+}
+
+.i_P_f_btn
+{
+    display: flex;
+    height: 50px;
+    width: 50%;
+}
+.i_P_f_btn button{
+    padding: 10px;
+    width: 100%;
+    background-color: #213d77;
+    color: whitesmoke;
+    border: none;
+}
+.pnr_form_heading{
+    color: #213d77;
+}
+.index_pnr_form_main_content .row{
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.station_input_field_row_1_1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 195px;
+    height: 40px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.station_input_field_row_1_2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 195px;
+    height: 40px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.station_input_field_row_2_1{
+ 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 195px;
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;   
+}
+.all_classes_select{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 195px;
+    height: 40px;
+    padding: 10px;  
+    margin-right: 10px;
+    margin: 10px;
+}
+.mode{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 195px;
+    height: 33px;
+    padding: 7px;  
+    margin-left:10px;
+    margin: 10px;
 }
