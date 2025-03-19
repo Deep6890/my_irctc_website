@@ -37,23 +37,27 @@ html {
 .list_type_none {
     list-style-type: none;
 }
-.space_evenly{
+
+.space_evenly {
     justify-content: space-evenly;
 }
-h1{
+
+h1 {
     font-size: 2rem;
     font-weight: 500;
     line-height: 1.2;
     margin-bottom: 1rem;
     font-family: Verdana;
 }
-h3{
+
+h3 {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.2;
     margin-bottom: 1rem;
     font-family: Verdana;
 }
+
 /*Ends*/
 
 /*Main header*/
@@ -70,6 +74,7 @@ h3{
     height: 120px;
     border-bottom: 1px solid #e0e0e0;
     position: fixed;
+    z-index: 4;
 }
 
 .left_most_nav {
@@ -132,7 +137,8 @@ h3{
     padding-top: 0px !important;
     height: 100px;
 }
-.nav_main_menu{
+
+.nav_main_menu {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -144,7 +150,8 @@ h3{
     padding-top: 0px !important;
     height: 100px;
 }
-.nav_manu{
+
+.nav_manu {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -152,7 +159,8 @@ h3{
     align-items: center;
     margin: 10px;
 }
-.nav_manu_btn_1{
+
+.nav_manu_btn_1 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -162,11 +170,12 @@ h3{
     padding-right: 10px;
     font-size: 12px;
     background-color: #213d77;
-    border:1px solid #000000;
+    border: 1px solid #000000;
     color: white;
     border-radius: 7px;
 }
-.nav_manu_btn_2{
+
+.nav_manu_btn_2 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -177,9 +186,10 @@ h3{
     font-size: 15px;
     background-color: #fefefe;
     color: rgb(0, 0, 0);
-    border:1px solid #000000;
+    border: 1px solid #000000;
     border-radius: 7px;
 }
+
 /*Ends*/
 
 /*Ends*/
@@ -223,10 +233,14 @@ h3{
     position: relative;
     max-width: 1920px !important;
 }
+
 .background_overlay_img img {
-    max-width: 100%; /* Ensures the image doesn't exceed the width of its container */
-    height: auto; /* Maintains the aspect ratio */
-    display: block; /* Removes extra space below the image caused by inline-block behavior */
+    max-width: 100%;
+    /* Ensures the image doesn't exceed the width of its container */
+    height: auto;
+    /* Maintains the aspect ratio */
+    display: block;
+    /* Removes extra space below the image caused by inline-block behavior */
 }
 
 .back_ground_img_overlay_content_barriar {
@@ -240,7 +254,8 @@ h3{
     position: absolute;
     z-index: 2;
 }
-.overlay_content_text_position{
+
+.overlay_content_text_position {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -250,6 +265,7 @@ h3{
     position: relative;
     overflow: hidden;
 }
+
 .back_ground_img_overlay_content {
     display: flex;
     flex-wrap: wrap;
@@ -259,15 +275,16 @@ h3{
     width: 100%;
     position: absolute;
     background-color: transparent;
-    color: #dfe0e2; 
-    opacity: 1; 
-    z-index: 3; 
+    color: #dfe0e2;
+    opacity: 1;
+    z-index: 3;
     font-size: 1.5rem;
-    text-align: center; 
-    top: 100px;
-    left: 500px;
+    text-align: center;
+    top: 170px;
+    left: 400px;
 }
-.index_pnr_form_parent{
+
+.index_pnr_form_parent {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -280,7 +297,8 @@ h3{
     margin-right: auto;
     margin-left: auto;
 }
-.index_pnr_form_main_content{
+
+.index_pnr_form_main_content {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -289,40 +307,44 @@ h3{
     position: relative;
     max-width: 500px;
     height: 500px;
-    margin-left:100px;
-    background-color: #f9fbf6   ;
-}
-.i_p_f_main_header_btns{
-    display:flex;
-    flex-wrap:wrap;
-    flex-direction:row;
-    align-items:center;
-    justify-content:space-evenly;
-    width:100%;
+    margin-left: 100px;
+    background-color: #f9fbf6;
 }
 
-.i_P_f_btn
-{
+.i_p_f_main_header_btns {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.i_P_f_btn {
     display: flex;
     height: 50px;
     width: 50%;
 }
-.i_P_f_btn button{
+
+.i_P_f_btn button {
     padding: 10px;
     width: 100%;
     background-color: #213d77;
     color: whitesmoke;
     border: none;
 }
-.pnr_form_heading{
+
+.pnr_form_heading {
     color: #213d77;
 }
-.index_pnr_form_main_content .row{
+
+.index_pnr_form_main_content .row {
     margin-top: 10px;
     align-items: center;
     justify-content: center;
 }
-.station_input_field_row_1_1{
+
+.station_input_field_row_1_1 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -334,7 +356,8 @@ h3{
     margin-right: 10px;
     margin-bottom: 10px;
 }
-.station_input_field_row_1_2{
+
+.station_input_field_row_1_2 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -346,8 +369,9 @@ h3{
     margin-left: 10px;
     margin-bottom: 10px;
 }
-.station_input_field_row_2_1{
- 
+
+.station_input_field_row_2_1 {
+
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -358,9 +382,10 @@ h3{
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 10px;
-    margin-bottom: 10px;   
+    margin-bottom: 10px;
 }
-.all_classes_select{
+
+.all_classes_select {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -368,11 +393,12 @@ h3{
     justify-content: center;
     width: 195px;
     height: 40px;
-    padding: 10px;  
+    padding: 10px;
     margin-right: 10px;
     margin: 10px;
 }
-.mode{
+
+.mode {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -380,7 +406,99 @@ h3{
     justify-content: center;
     width: 195px;
     height: 33px;
-    padding: 7px;  
-    margin-left:10px;
+    padding: 7px;
+    margin-left: 10px;
     margin: 10px;
+}
+
+.check_box_pnr_row_1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40px;
+    font-size: 15px;
+    font-family: Verdana;
+    color: #213d77;
+}
+
+.index_search_btn_row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-between !important;
+}
+
+.search_btn {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.search_btn button {
+    padding: 10px;
+    width: 100%;
+    background-color: #fb792b;
+    color: whitesmoke;
+    border-radius: 5px;
+    border: none;
+}
+
+.search_btn button:hover {
+    background-color: #f17d34;
+    border: 1px solid #ff7824;
+}
+
+.customer_headline_index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    background-color: #dfe0e2;
+    position: absolute;
+    top: 300px;
+    right: 50px;
+    margin: 10px;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 15px;
+    color: #213d77;
+    font-family: Verdana;
+}
+
+/*Advertise for index*/
+.index_advertise_1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #e0e0e0;
+    min-height: 50px;
+    max-width: 1920px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.index_advertise_1 img {
+    border-radius: 15px;
+}
+
+.index_services_of_irctc_icons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1920px;
+    justify-content: center;
+    align-items: center;
+}
+.fix_width_svg_icon_300{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
