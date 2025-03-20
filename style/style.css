@@ -41,6 +41,9 @@ html {
 .space_evenly {
     justify-content: space-evenly;
 }
+.justify_center{
+    justify-content: center;
+}
 
 h1 {
     font-size: 2rem;
@@ -487,14 +490,19 @@ h3 {
 .index_advertise_1 img {
     border-radius: 15px;
 }
-
+.index_services_of_irctc{
+    margin-top:50px;
+    margin-bottom: 50px;
+    color: #213d77;
+}
 .index_services_of_irctc_icons {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
     max-width: 1920px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    margin: 50px;
 }
 .fix_width_svg_icon_300{
     display: flex;
